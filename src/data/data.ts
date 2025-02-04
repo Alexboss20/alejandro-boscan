@@ -1,0 +1,10 @@
+export const shuu = ['集', '中', '力', '-', 'S', 'H', 'U', 'U', 'C', 'H', 'U', 'U', '-', 'E', 'N', 'F', 'O', 'Q', 'U', 'E'];
+export const kyour = ['協', '力', '-', 'K', 'Y', 'O', 'U', 'R', 'Y', 'O', 'K', 'U', '-', 'C', 'O', 'L', 'A', 'B', 'O', 'R', 'A', 'C', 'I', 'Ó', 'N'];
+export const kaizen = ['改', '善', '-', 'K', 'A', 'I', 'Z', 'E', 'N', '-', 'M', 'E', 'J', 'O', 'R', 'A', '', 'C', 'O', 'N', 'T', 'I', 'N', 'U', 'A'];
+export const kanzen = ['完', '全', '-', 'K', 'A', 'N', 'Z', 'E', 'N', '-', 'F', 'I', 'N', 'A', 'L', 'I', 'Z', 'A', 'C', 'I', 'Ó', 'N'];
+export const jiritsu = ['自', '立', '-', 'J', 'I', 'R', 'I', 'T', 'S', 'U', '-', 'A', 'U', 'T', 'O', 'N', 'O', 'M', 'Í', 'A'];
+export const toumei = ['透', '明', '-', 'T', 'O', 'U', 'M', 'E', 'I', '-', 'T', 'R', 'A', 'N', 'S', 'P', 'A', 'R', 'E', 'N', 'C', 'I', 'A'];
+export const tekisei = ['適', '性', '-', 'T', 'E', 'K', 'I', 'S', 'E', 'I', '-', 'A', 'D', 'A', 'P', 'T', 'A', 'B', 'I', 'L', 'I', 'D', 'A', 'D'];
+export const shinrai = ['信', '頼', '-', 'S', 'H', 'I', 'N', 'R', 'A', 'I', '-', 'C', 'O', 'N', 'F', 'I', 'A', 'N', 'Z', 'A'];
+export const seikaku = ['正', '確', '-', 'S', 'E', 'I', 'K', 'A', 'K', 'U', '-', 'P', 'R', 'E', 'C', 'I', 'S', 'I', 'Ó', 'N'];
+export const Working = ['W','O','R','K','-','I','N','-','P','R','O','G','R','E','S','S','-','W','O','R','K','-','I','N','-','P','R','O','G','R','E','S','S']

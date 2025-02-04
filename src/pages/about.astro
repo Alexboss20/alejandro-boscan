@@ -1,0 +1,164 @@
+---
+import astroIcon from '../assets/icons/astroIcon.svg'
+import reactIcon from '../assets/icons/reactIcon.svg'
+import jsIcon from '../assets/icons/jsIcon.svg'
+import figmaIcon from '../assets/icons/figmaIcon.svg'
+import tailwindIcon from '../assets/icons/tailwindIcon.svg'
+import storyIcon from '../assets/icons/storyIcon.svg'
+import cssIcon from '../assets/icons/css3Icon.svg'
+import yoR from '../assets/img/yoR.png'
+import blenderIcon from '../assets/icons/blenderIcon.svg'
+import githubIcon from '../assets/icons/githubIcon.svg'
+import gitIcon from '../assets/icons/gitIcon.svg'
+import notionIcon from '../assets/icons/notionIcon.svg'
+import vscodeIcon from '../assets/icons/vscodeIcon.svg'
+import Layout from "../layouts/Layout.astro"
+import BlackHoleAnchor from '../components/BlackHoleAncor';
+---
+
+
+<Layout title='about me'>
+  <main>
+      <div class="absolute flex flex-col lg:grid grid-rows-10 grid-cols-5 lg:grid-cols-6 lg:grid-rows-5 w-full h-screen z-10 top-5 animate-slideIn text-white gap-4 overflow-scroll">
+        <section class="w-full h-96 flex flex-col self-center lg:col-span-1 lg:row-span-3 max-md:px-12 max-sm:ml-12">
+              <!-- <span class="flex items-start text-2xl ml-8">Sobre Mí</span> -->
+              <div class='w-40 h-48 max-lg:hidden mt-10 ml-5 '>
+                  <img src={yoR.src} alt="Jose Alejandro"/>
+              </div>
+              <span class='flex text-justify text-sm max-sm:w-full mt-3 md:ml-2 md:pr-36 lg:pr-0'>Hola, soy Alejandro Boscan, 
+                Desarrollador Front-End con 3 años de experiencia en la creación de páginas web 
+                utilizando herramientas como JavaScript, React y Astro. A continuación, muestro parte de 
+                las herramientas que utilizo en mi día a día.
+                Mi objetivo actual es aprender a integrar Three.js en mis proyectos para crear 
+                experiencias web 3D interactivas y visualmente impactantes.</span>
+        </section>
+              <section class="lg:col-start-2 lg:col-end-5 lg:row-start-1 lg:row-end-4 row-start-3 col-start-2 max-sm:p-12 max-sm:ml-10 lg:mt-5" >
+                <div class="flex flex-col">
+                  <ul class="flex justify-center gap-5 max-sm:ml-5  items-center">
+                    <li class="flex flex-col w-40 h-24 justify-center items-center">
+                      <a href="astroProyect">
+                        <div class="w-12 h-12 bg-white shadow-lg shadow-white rounded-full flex items-center justify-center">
+                          <img src={astroIcon.src} alt="astro icon" class="w-8 h-8" />
+                        </div>
+                      </a>
+                      <span class="text-sm mt-2">ASTRO</span>
+                    </li>
+                    <li class="max-sm:text-xs text-xl text-center w-40 h-24">FRAMEWORKS</li>
+                    <li class="flex flex-col w-40 h-24 justify-center items-center">
+                      <a href="#section2">
+                    <div class="w-12 h-12 bg-white rounded-full shadow-lg shadow-white flex items-center justify-center">
+                      <img src={tailwindIcon.src} alt="tailwind icon" class="w-8 h-8" />
+                    </div>
+                  </a>
+                  <span class="text-sm mt-2">TAILWIND</span>
+                </li>
+              </ul>
+              <ul class="flex justify-center gap-5 max-sm:gap-0 max-sm:ml-7 items-center">
+                <li class="flex flex-col w-40 h-24 justify-center items-center">
+                  <a href="reactProyect">
+                    <div class="w-12 h-12 bg-white rounded-full shadow-lg shadow-white flex items-center justify-center">
+                      <img src={reactIcon.src} alt="react icon" class="w-8 h-8" />
+                    </div>
+                  </a>
+                  <span class="text-sm mt-2">REACT</span>
+                </li>
+                <li class="max-sm:text-xs max-sm:ml-8 text-xl w-40 h-24 text-center">LIBRERIAS</li>
+                <li class="flex flex-col w-40 h-28 justify-center max-sm:ml-6 items-center">
+                  <a href="#section4">
+                    <div class="w-12 h-12 bg-white rounded-full shadow-lg shadow-white flex items-center justify-center">
+                      <img src={storyIcon.src} alt="storybook icon" class="w-8 h-8" />
+                    </div>
+                  </a>
+                  <span class="text-sm mt-2">STORYBOOK</span>
+                </li>
+              </ul>
+              <ul class="flex justify-center gap-5 max-[425px]:ml-0 max-[426px]:ml-5 items-center ">
+                <li class="flex flex-col w-40 h-24 justify-center items-center">
+                  <a href="javascriptProyect">
+                    <div class="w-12 h-12 border bg-white rounded-full shadow-lg shadow-white flex items-center justify-center">
+                      <img src={jsIcon.src} alt="js icon" class="w-8 h-8 rounded-lg" />
+                    </div>
+                  </a>
+                  <span class="text-sm mt-2">JAVASCRIPT</span>
+                </li>
+                <li class="max-sm:text-xs text-xl w-40 h-24 text-center">LENGUAJES</li>
+                <li class="flex flex-col w-40 h-24 justify-center  items-center">
+                  <a href="#section6">
+                    <div class="w-12 h-12 bg-white rounded-full shadow-lg shadow-white flex items-center justify-center">
+                      <img src={cssIcon.src} alt="CSS icon" class="w-8 h-8" />
+                    </div>
+                  </a>
+                  <span class="text-sm mt-2">CSS</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+            <section class="col-start-1 col-end-3 row-start-4 row-end-6">
+              <h2 class='flex justify-end max-lg:justify-center sm:mr-5'>MANAGEMENT TOOLS</h2>
+              <div class="flex flex-col mr-5 ">
+                <ul class="flex justify-end max-lg:justify-center items-center">
+                  <li class="flex flex-col w-20 h-24 justify-center items-center">
+                  <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
+                    <div class="w-12 h-12 bg-white shadow-lg shadow-white rounded-full flex items-center justify-center">
+                      <img src={vscodeIcon.src} alt="astro icon" class="w-8 h-8" />
+                    </div>
+                  </a>
+                  <span class="text-sm mt-2">VS CODE</span>
+                </li>
+                <li class="flex flex-col w-20 h-24 justify-center items-center">
+                  <a href="#section2">
+                    <div class="w-12 h-12 bg-white rounded-full shadow-lg shadow-white flex items-center justify-center">
+                      <img src={notionIcon.src} alt="notion icon" class="w-8 h-8" />
+                    </div>
+                  </a>
+                  <span class="text-sm mt-2">NOTION</span>
+                </li>
+              </ul>
+              <ul class="flex justify-end max-lg:justify-center items-center">
+                <li class="flex flex-col w-20 h-24 justify-center items-center">
+                  <a href="#section3">
+                    <div class="w-12 h-12 bg-white rounded-full shadow-lg shadow-white flex items-center justify-center">
+                      <img src={gitIcon.src} alt="git icon" class="w-8 h-8" />
+                    </div>
+                  </a>
+                  <span class="text-sm mt-2">GIT</span>
+                </li>
+                <li class="flex flex-col w-20 h-28 justify-center items-center">
+                  <a href="#section4">
+                    <div class="w-12 h-12 bg-white rounded-full shadow-lg shadow-white flex items-center justify-center">
+                      <img src={githubIcon.src} alt="github icon" class="w-8 h-8" />
+                    </div>
+                  </a>
+                  <span class="text-sm mt-2">GITHUB</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+            <section class="col-start-4 col-end-6 row-start-4 row-end-6 lg:absolute">
+              <h2 class='flex mr-5 max-lg:justify-center max-lg:'>DESING TOOLS</h2>
+              <div class="flex flex-col">
+              <ul class="flex max-lg:justify-center mt-2">
+                <li class="flex flex-col w-20 h-24 ">
+                  <a href="#section1">
+                    <div class="w-12 h-12 bg-white shadow-lg shadow-white rounded-full flex items-center justify-center">
+                      <img src={figmaIcon.src} alt="figma icon" class="w-8 h-8" />
+                    </div>
+                  </a>
+                  <span class="text-sm mt-2">FIGMA</span>
+                </li>
+                <li class="flex flex-col w-20 h-24">
+                  <a href="#section2">
+                    <div class="w-12 h-12 bg-white rounded-full shadow-lg shadow-white flex items-center justify-center">
+                      <img src={blenderIcon.src} alt="blender icon" class="w-8 h-8" />
+                    </div>
+                  </a>
+                  <span class="text-sm mt-2">BLENDER</span>
+                </li>
+              </ul>
+              </div>
+            </section>
+          </div>
+          <BlackHoleAnchor client:load nextPage="/" size="md"   />
+        </main>
+    
+      </Layout>

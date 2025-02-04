@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import outerIcon from '../assets/icons/outerIcon.png';
+import SpinReverse from '../components/ui/SpinReverse';
+import blackHole from '../assets/icons/blackHole.svg';
+
+---
+
+<Layout title='Home'>
+	<main>
+		<div class='flex flex-col h-screen absolute items-center justify-center text-2xl max-md:left-7 md:text-3xl right-20 md:right-32 gap-3 w-full lg:text-7xl animate-slideIn'>
+			<span class='text-white'>Alejandro Boscan</span>
+			<div class="flex w-48 h-48 justify-center items-center">
+				<SpinReverse src={outerIcon.src} alt="OuterIcon" />
+				<a href="/about" class=" absolute z-30 ">
+					<picture class="w-12 h-10">
+						<img
+						class='shadow-2xl border-solid animate-pulseMusic border-white border-2 bg-white z-20  md:top-[5.3rem] lg:top-[7.6rem] hover:scale-125 rounded-full' 
+						src={blackHole.src} 
+						alt={'blackhole'}
+						width={50}
+						height={50} 
+						/>
+					</picture>
+				</a>
+			</div>
+		<span class='text-white'>Frontend Developer</span>
+	</div>
+</main>
+</Layout>
