@@ -72,7 +72,7 @@ export const pageConfigs: PageConfigs = {
   '/working': {
     index:'00',
     words: working,
-    backgroundColor: 'bg-red-500'
+    backgroundColor:'bg-red-500'
   }
 };
 
