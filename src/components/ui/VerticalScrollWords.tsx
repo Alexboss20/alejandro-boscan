@@ -1,7 +1,7 @@
 import { useStore } from '@nanostores/react';
 import { $currentPageConfig } from '../../store/verticalStore';
 
-export const VerticalScrollingWords = () => {
+const VerticalScrollingWords = () => {
   const config = useStore($currentPageConfig);
 
   return (
@@ -31,3 +31,5 @@ export const VerticalScrollingWords = () => {
     </div>
   );
 };
+
+export default VerticalScrollingWords;
