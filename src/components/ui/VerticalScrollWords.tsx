@@ -5,7 +5,7 @@ const VerticalScrollingWords = () => {
   const config = useStore($currentPageConfig);
 
   return (
-    <div className=' bg-slate-800 w-full h-screen'>
+    <div className=' bg-slate-800 w-full h-screen absolute overflow-hidden'>
       <div className='animate-slideIn flex w-full'>
         <div className='relative w-full'>
           <span className='absolute max-sm:right-2 md:left-2 lg:text-3xl md:text-xl text-slate-500'>{config.index}</span>

@@ -1,7 +1,6 @@
 ---
 import { ViewTransitions } from "astro:transitions";
 import VerticalScrollingWords from "../components/ui/VerticalScrollWords";
-import type { animate } from "framer-motion";
 interface Props {
 	title: string;
 }
@@ -21,9 +20,9 @@ const { title } = Astro.props;
     <ViewTransitions/>
 	</head>
 	<body>
-    <main class="overflow-hidden">
-      <slot />
-      <VerticalScrollingWords client:load/>
+    <main class="overflow-hidden w-full h-screen relative">
+		<VerticalScrollingWords client:visible/>
+			<slot />
 	  <script>
 		import { updatePageConfig } from '../store/verticalStore';
   

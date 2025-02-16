@@ -21,7 +21,7 @@ const toumei = ['透', '明', '-', 'T', 'O', 'U', 'M', 'E', 'I', '-', 'T', 'R', 
 const tekisei = ['適', '性', '-', 'T', 'E', 'K', 'I', 'S', 'E', 'I', '-', 'A', 'D', 'A', 'P', 'T', 'A', 'B', 'I', 'L', 'I', 'D', 'A', 'D'];
 const shinrai = ['信', '頼', '-', 'S', 'H', 'I', 'N', 'R', 'A', 'I', '-', 'C', 'O', 'N', 'F', 'I', 'A', 'N', 'Z', 'A'];
 const seikaku = ['正', '確', '-', 'S', 'E', 'I', 'K', 'A', 'K', 'U', '-', 'P', 'R', 'E', 'C', 'I', 'S', 'I', 'Ó', 'N'];
-export const working = ['W','O','R','K','-','I','N','-','P','R','O','G','R','E','S','S','-','W','O','R','K','-','I','N','-','P','R','O','G','R','E','S','S']
+const working = ['W','O','R','K','-','I','N','-','P','R','O','G','R','E','S','S','-','W','O','R','K','-','I','N','-','P','R','O','G','R','E','S','S']
 
 export const pageConfigs: PageConfigs = {
   '/': {
