@@ -1,7 +1,9 @@
 ---
+import { Image } from "astro:assets"
 import BlackHoleAnchor from "../components/BlackHoleAncor"
 import Layout from "../layouts/Layout.astro"
 import MarcoDiv from "../components/MarcoDiv"
+import transporteV from "../assets/img/transporte.png"
 ---
 
 <Layout title="Astro">
@@ -12,17 +14,17 @@ import MarcoDiv from "../components/MarcoDiv"
                 <div class="w-60 h-36 flex">
                     <MarcoDiv>
                         <a href="https://transportedevzla.vercel.app/" target="_blank" rel="noopener noreferrer">
-                            <img src="/src/assets/img/transporte.png" alt="transporte de Venezuela" />
+                            <Image src={transporteV} alt="transporte de Venezuela" />
                           </a>
                     </MarcoDiv>
                 </div>
-                <div class="w-60 h-36 flex">
+                <!-- <div class="w-60 h-36 flex">
                     <MarcoDiv>
                         <a href="https://ticket-restaurant.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <img src="/src/assets/img/consumo-tips.png" alt="consumo y tips" />
                           </a>
                     </MarcoDiv>
-                </div>
+                </div> -->
             <!-- <div class="w-60 h-36 flex">
                 <MarcoDiv>
                     <a href="https://ticket-restaurant.netlify.app/" target="_blank" rel="noopener noreferrer">

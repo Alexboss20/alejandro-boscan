@@ -1,7 +1,13 @@
 ---
+import { Image } from "astro:assets";
 import BlackHoleAnchor from "../components/BlackHoleAncor"
 import Layout from "../layouts/Layout.astro"
 import MarcoDiv from "../components/MarcoDiv"
+import agendaCita from"../assets/img/agenda-citas.png"
+import cursoOnline from "../assets/img/cursosonline.png"
+import buscardoAutos from "../assets/img/buscadorautos.png"
+import batataBit from "../assets/img/batatabit.png"
+import easyTravel from "../assets/img/easytravel.png"
 ---
 
 <Layout title="Javascript">
@@ -11,35 +17,35 @@ import MarcoDiv from "../components/MarcoDiv"
                 <div class="w-60 h-36 flex">
                     <MarcoDiv>
                         <a href="https://citasmascotas20.netlify.app/" target="_blank" rel="noopener noreferrer">
-                            <img src="/src/assets/img/agenda-citas.png" alt="Agenda de citas" />
+                            <Image src={agendaCita} alt="Agenda de citas" />
                           </a>
                     </MarcoDiv>
                 </div>
                 <div class="w-60 h-36 flex">
                     <MarcoDiv>
                         <a href="https://curso-universitarios.netlify.app/" target="_blank" rel="noopener noreferrer">
-                            <img src="/src/assets/img/cursosonline.png" alt="cursos online" />
+                            <Image src={cursoOnline} alt="cursos online" />
                           </a>
                 </MarcoDiv>
             </div>
             <div class="w-60 h-36 flex">
                 <MarcoDiv>
                     <a href="https://buscadorautos20.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <img src="/src/assets/img/buscadorautos.png" alt="Buscador de autos" />
+                        <Image src={buscardoAutos} alt="Buscador de autos" />
                       </a>
                 </MarcoDiv>
             </div>
             <div class="w-60 h-36 flex">
                 <MarcoDiv>
                     <a href="https://batatabit2.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <img src="/src/assets/img/batatabit.png" alt="batatabit" />
+                        <Image src={batataBit} alt="batatabit" />
                       </a>
                 </MarcoDiv>
             </div>
             <div class="w-60 h-36 flex">
                 <MarcoDiv>
                     <a href="https://easytravel2.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <img src="/src/assets/img/easytravel.png" alt="easytravel" />
+                        <Image src={easyTravel} alt="easytravel" />
                       </a>
                 </MarcoDiv>
             </div>
