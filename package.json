@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.8.1",
+    "@astrojs/image": "^0.18.0",
     "@astrojs/react": "^3.6.2",
     "@astrojs/tailwind": "^5.1.1",
     "@nanostores/react": "^0.8.0",
@@ -24,6 +25,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-draggable": "^4.4.6",
+    "sharp": "^0.33.5",
     "tailwindcss": "^3.4.12",
     "typescript": "^5.5.3"
   },
