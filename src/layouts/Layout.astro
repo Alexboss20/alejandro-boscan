@@ -21,7 +21,7 @@ const { title } = Astro.props;
 	</head>
 	<body>
     <main class="overflow-hidden w-full h-screen relative">
-		<VerticalScrollingWords client:visible/>
+		<VerticalScrollingWords client:load/>
 			<slot />
 	  <script>
 		import { updatePageConfig } from '../store/verticalStore';
